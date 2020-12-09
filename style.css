@@ -80,5 +80,16 @@ form{
     width: 70px;
     border: none;
     border-radius: 10px;
-    font-weight: 400;
+    font-weight: 700;
+    background-color: #EA4C46;
+    color: white;
+    outline: none;
+}
+
+#btn:hover{
+    background-color: #cf342e;
+}
+
+#btn:focus{
+    background-color: #991f1a;
 }
