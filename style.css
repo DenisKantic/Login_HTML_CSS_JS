@@ -12,6 +12,24 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #659DBD;
+    /* background-color: #659DBD; */
+    background-color: #FCC9B9;
 }
 
+.container{
+    width: 800px;
+    height: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.leftside{
+    height: 450px;
+    width: 400px;
+    background-color: #EA4C46;
+}
+
+.rightside{
+    margin: -450px 0 0 400px;
+}
