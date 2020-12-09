@@ -74,3 +74,11 @@ form{
     font-size: 13px;
     color: black;    
 }
+
+#btn{
+    height: 30px;
+    width: 70px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 400;
+}
