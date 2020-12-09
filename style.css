@@ -42,7 +42,7 @@ body{
     font-weight: 700;    
 }
 
-p{
+.left-text{
     font-size: 15px;
     text-align: center;
     padding: 10px;
@@ -92,4 +92,9 @@ form{
 
 #btn:focus{
     background-color: #991f1a;
+}
+
+#resultInput{
+    margin: 20px 0 0 50px;
+    font-size: 14px;
 }

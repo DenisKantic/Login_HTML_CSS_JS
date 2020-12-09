@@ -12,7 +12,7 @@
     <div class="container">
         <div class="leftside">
             <h1 class="htmlText">HTML CSS Login <br> Form</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias asperiores dolor praesentium veniam, nesciunt dignissimos possimus vero cupiditate amet rem!</p>
+            <p class="left-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias asperiores dolor praesentium veniam, nesciunt dignissimos possimus vero cupiditate amet rem!</p>
         </div>
 
         <div class="rightside">
@@ -20,12 +20,14 @@
             <h1 class="loginText">Login</h1>
 
             <form>
-                <input type="text" placeholder="Username" required id="username-box">
+                <input type="text" placeholder="Username" maxlength="50" required id="username-box">
                 <input type="password" placeholder="Password" required id="password-box">
 
                 <br>
                 <button id="btn">Login</button>
             </form>
+
+            <p id="resultInput">Correct</p>
         </div>
     </div>
     
