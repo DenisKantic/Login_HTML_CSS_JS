@@ -71,7 +71,7 @@ form{
     outline: none;
     background-color: rgb(241, 241, 241);
     border: none;
-    font-size: 13px;
+    font-size: 16px;
     color: black;    
 }
 
@@ -96,6 +96,6 @@ form{
 
 #resultInput{
     margin: 20px 0 0 50px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 700;
 }
