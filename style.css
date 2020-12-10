@@ -90,9 +90,6 @@ form{
     background-color: #cf342e;
 }
 
-#btn:focus{
-    background-color: #991f1a;
-}
 
 #resultInput{
     margin: 20px 0 0 50px;
