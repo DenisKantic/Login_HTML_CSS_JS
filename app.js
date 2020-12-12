@@ -25,5 +25,15 @@ function checkInput(event){
         inputMessage.style.color = "red";
         inputMessage.innerHTML = "Username or password is incorrect";
     }
+    }
 }
+
+
+const signOutBtn = document.getElementById("signOut");
+
+signOutBtn.addEventListener("click", signOut);
+
+function signOut(){
+
+    window.location = "./index.html";
 }
