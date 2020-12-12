@@ -20,6 +20,7 @@ function checkInput(event){
     if(usernameBox.value == "user" && passwordBox.value == "1234"){
             inputMessage.style.color = "green";
             inputMessage.innerHTML = "Login successful";
+            window.location = "./sidebar.html";
     } else {
         inputMessage.style.color = "red";
         inputMessage.innerHTML = "Username or password is incorrect";
